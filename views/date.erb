@@ -1,10 +1,7 @@
-<% require 'pry' %>
-
 <!DOCTYPE html>
 <html>
 <body>
   <h1>Today</h1>
-  <% binding.pry %>
   <% t = Time.now %>
   <p><%= "The date is " + t.strftime('%A') + ", " + t.strftime('%B') + t.strftime('%d') + ", " + t.strftime('%G') + "." %></p>
 </body>
